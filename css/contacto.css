@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    line-height: 1.5;
+    background-color: white;
+    font-family: sans-serif;
+}
+header h1{
+     text-align: center;
+     padding: 3px 0;
+}
+
+header {
+    background-color: rgb(16, 151, 16);
+    color: rgba(0, 65, 0, 0.479);
+}
+h1{
+  font-family: "Playwrite US Modern", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: inset 1px 1px green;
+}
+nav ul li{
+    margin: 0 16px;
+    line-height: 48px;
+}
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    padding: 2px 20px;
+    border-radius: 15px;
+}
+nav ul li a:hover{
+    background: rgb(16, 151, 16);
+    color: white;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+h2{
+    text-align: center;
+    margin: 30px 0 5px 0;
+    color: rgb(16, 151, 16); }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 0 auto;
+        box-shadow: rgba(0, 65, 0, 0.479)
+    }
+    
+    input{
+        padding: 17px;
+        border-radius: 25px;
+        background-color:transparent;
+        border: 2px solid rgba(0, 65, 0, 0.479);
+        margin-bottom: 30px;
+        outline: none;
+        color: rgb(100, 99, 99);
+        font-size: 16px;
+        font-family:'Times New Roman', Times, serif
+    
+    }
+    form textarea{
+        background-color: transparent;
+        margin-bottom: 30px;
+        padding: 17px;
+        border: 2px solid rgba(0, 65, 0, 0.479);
+        border-radius: 25px;
+        outline: none;
+        font-size: 16px;
+        color: rgb(100, 99, 99);
+        font-family: 'Times New Roman', Times, serif
+    }
+    ::placeholder{
+        color:rgba(0, 65, 0, 0.479)
+    }
+    form button{
+        padding: 12px;
+        border: 2px solid rgba(0, 65, 0, 0.479);
+        background-color: rgb(16, 151, 16);
+        color: white;
+        cursor: pointer;
+        width: 100px;
+        margin: 5px 10px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+    
+    form button:hover{
+        background-color: white;
+        color: rgba(0, 65, 0, 0.479);
+    }
+    .button-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    h2{
+        text-align: center;
+        margin: 30px 0 5px 0;
+        color: rgb(16, 151, 16);
+    }
+  
